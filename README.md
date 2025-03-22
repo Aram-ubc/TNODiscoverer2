@@ -15,3 +15,11 @@ Steps 1-3 are for training the model, and steps 4-6 are for using the model to d
 |5|Predictor.ipynb|.npy (sub-images from ImageCutter), .npy (target info), .h5 (model)|.npy|Apply trained model to detect objects|
 |6a|Link_sources_to_objects.py|.npy (classification and regression output from Predictor)|.npy|Detect moving objects (linear fitting method)|
 |6b|CandidateFinder.ipynb|.npy (classification output from Predictor), .npy (sub-images, target info)|.csv|Detect moving objects (scoring method)|
+
+### Example Files
+Due to the repository's capacity limit, only example files are included:  
+- Only 4 FITS files out of 44 × 36 total.  
+- Only 44 plant list files out of 44 × 36 total.  
+- Only 1 sub-image dataset from 1 CCD out of 36 CCDs available.  
+- Only 2 models (MobileNet classification and regression).  
+- Predicted values for sub-images of the first CCD.  
