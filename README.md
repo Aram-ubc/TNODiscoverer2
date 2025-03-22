@@ -22,10 +22,9 @@ Steps 1-3 are for training the model, and steps 4-6 are for using the model to d
 |6b|CandidateFinder.ipynb|.npy (classification output from Predictor), .npy (sub-images, target info)|.csv|Detect moving objects (scoring method)|
 
 ### Example Files
-Due to the repository's capacity limit, only example files are included:  
+Due to the repository's capacity limit, only following example files are included:  
 - Only 4 FITS files out of 44 × 36 total.  
-- Only 44 plant list files out of 44 × 36 total.  
-- Only 1 sub-image dataset from 1 CCD out of 36 CCDs available.  
+- Only 44 plant list files out of 44 × 36 total.
+- Only 1 target file for the first CCD.
 - Only 2 models (MobileNet classification and regression).  
-- Predicted values for sub-images of the first CCD.  
->>>>>>> cb1b983fa934ee32496cd493906b7eb684d9ba58
+- CNN-predicted values for sub-images of the first CCD.
